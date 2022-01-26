@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bilibili Do Not Track
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com
 // @version      0.1
 // @description  try to take over the world!
 // @author       Kaki Wang
