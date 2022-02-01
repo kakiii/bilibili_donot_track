@@ -8,7 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
 // @include      https?:\/\/www.bilibili.com
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/kakiii/bilibili_donot_track/main/src.js
+// @updateURL    https://raw.githubusercontent.com/kakiii/bilibili_donot_track/main/src.user.js
 // ==/UserScript==
 
 (function() {
