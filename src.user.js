@@ -4,8 +4,7 @@
 // @version      0.1.2
 // @description  delete digital fingerprint of bilibili
 // @author       Kaki Wang
-// @match        https://www.bilibili.com/video/*?*
-// @match        https://live.bilibili.com/*?*
+// @match        https://*.bilibili.com/video/*?*
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
 // @include      https?:\/\/www.bilibili.com
 // @grant        none
