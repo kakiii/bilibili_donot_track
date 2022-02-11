@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bilibili Do Not Track
 // @namespace    https://github.com
-// @version      0.1.2
+// @version      0.1.3
 // @description  delete digital fingerprint of bilibili
 // @author       Kaki Wang
 // @match        https://*.bilibili.com/*?*
@@ -18,9 +18,12 @@
     //alert(window.location.href.split("?")[0]);
     const url = window.location.href;
     const sub_domain = url.split("//")[1].split(".")[0];
+    alert(sub_domain);
     if (sub_domain!=="search"){
         window.location=url.split("?")[0];
     }else{
-        window.location=url.split("&")[0];
+        if(url.includes("&")){
+            window.location=url.split("&")[0];
+        }
     }
 })();
