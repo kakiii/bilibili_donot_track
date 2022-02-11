@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bilibili Do Not Track
 // @namespace    https://github.com
-// @version      0.1.1
+// @version      0.1.2
 // @description  delete digital fingerprint of bilibili
 // @author       Kaki Wang
 // @match        https://www.bilibili.com/video/*?*
