@@ -18,7 +18,7 @@
     //alert(window.location.href.split("?")[0]);
     const url = window.location.href;
     const sub_domain = url.split("//")[1].split(".")[0];
-    alert(sub_domain);
+    // alert(sub_domain);
     if (sub_domain!=="search"){
         window.location=url.split("?")[0];
     }else{
