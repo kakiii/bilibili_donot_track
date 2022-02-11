@@ -17,6 +17,11 @@
 
     // Your code here...
     //alert(window.location.href.split("?")[0]);
-    window.location=window.location.href.split("?")[0];
-    alert("Removed!");
+    const url = window.location.href;
+    const sub_domain = url.split("//")[1].split(".")[0];
+    if (sub_domain!=="search"){
+        window.location=url.split("?")[0];
+    }else{
+        window.location=url.split("&")[0];
+    }
 })();
