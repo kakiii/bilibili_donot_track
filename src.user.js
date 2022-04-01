@@ -19,11 +19,10 @@
     const url = window.location.href;
     const sub_domain = url.split("//")[1].split(".")[0];
     // alert(sub_domain);
-    if (sub_domain!=="search"){
+    //do nothing for domain of https://live.bilibili.com/p/eden/area-tags
+    if (sub_domain!=="search" || sub_domain!=="live"){
         window.location=url.split("?")[0];
-    }else{
-        if(url.includes("&")){
-            window.location=url.split("&")[0];
-        }
+    }else if(url.includes("&")){
+        window.location=url.split("&")[0];
     }
 })();
