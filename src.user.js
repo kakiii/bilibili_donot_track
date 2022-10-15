@@ -24,6 +24,6 @@
         window.location=url.split("?")[0];
     }else if(url.includes("&")){
         window.location=url.split("&")[0];
-        console.log("hello");
+        console.log("h");
     }
 })();
